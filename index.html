@@ -31,12 +31,16 @@
       <footer class="bordered-r15">
         <div class="copyright">
           <p>&copy; 2022 - Jared Brooks - Jaredare</p>
-          <p id="last-modified"></p>
+          <p>This document was last modified <span id="modify"></span>.</p>
+<script>
+document.getElementById("modify").innerHTML = document.lastModified
+</script>
+          <!-- <p id="last-modified"></p>
           <script>/* Function to use lastModified property */
             function geeks() {
                 var x = document.lastModified;
                 document.getElementById("last-modified").innerHTML = x;
-            }</script>
+            }</script> -->
         </div>
         <div class="last-updated"></div>
   </footer>
