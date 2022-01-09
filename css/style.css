@@ -79,9 +79,10 @@ h2 {
 
 footer {
 padding: 5px;
-display: grid;
-grid-template-columns: 2fr 1fr;
+/* display: grid;
+grid-template-columns: 2fr 1fr; */
 align-items: center;
+text-align: center;
 }
 
 
