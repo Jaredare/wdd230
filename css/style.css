@@ -70,6 +70,14 @@ box-shadow: 2px 2px 5px #5427A1;
     border-bottom: 1px solid #5427A1;
 }
 
+h2 {
+    padding-bottom: 2px;
+}
+
+ul {
+    padding-bottom: 10px;
+}
+
 /*--------FOOTER-------------------------------------------------------------------*/
 
 footer {
