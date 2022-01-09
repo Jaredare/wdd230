@@ -23,8 +23,6 @@ header {
     grid-row: 1 / 2;
     align-items: center;
     text-align: center;
-    padding-left: auto;
-    padding-right: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -69,7 +67,7 @@ box-shadow: 2px 2px 5px #5427A1;
 /*--------HOME/INDEX-----------------------------------------------------------*/
 
 .lower-line {
-    border-bottom: 2px solid #5427A1;
+    border-bottom: 1px solid #5427A1;
 }
 
 /*--------FOOTER-------------------------------------------------------------------*/
