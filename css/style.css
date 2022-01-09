@@ -69,10 +69,7 @@ box-shadow: 2px 2px 5px #5427A1;
 /*--------HOME/INDEX-----------------------------------------------------------*/
 
 h2 {
-    border-style: solid;
-    border-width: 0px;
-    border-color: #5427A1;
-    border-bottom: 1px;
+    border-bottom: 2px solid #5427A1;
 }
 
 /*--------FOOTER-------------------------------------------------------------------*/
