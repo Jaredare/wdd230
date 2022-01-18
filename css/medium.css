@@ -2,16 +2,16 @@
 @media only screen and (min-width: 32.5rem) {
 
     body {
-        background-color: #ffffff;
+        background-color: #010203;
         font-family: "Helvetica", sans-serif;
         padding: 5px 25px;
         font-size: 18px;
         margin: 0;
-        color: #000000;
+        color: #5427A1;
         }
         
         h1, h2, h3, h4, h5, h6 {
-        color: #000000;
+        color: #5427A1;
         font-family: "Rubik", "Helvetica", "Arial", sans-serif;
         }
         
@@ -19,9 +19,8 @@
         border-style: solid;
         border-width: 3px;
         border-radius: 15px;
-        border-color: #000000;
+        border-color: #5427A1;
         box-shadow: 2px 2px 5px #5427A1;
         }
-
-
+        
 }
