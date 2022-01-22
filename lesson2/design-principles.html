@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+
 
 </head>
 
 <body>
-    <header>
-        <h1>Design Principles Document</h1>
-        <h2>Jared Brooks</h2>
+    <header id="header-grid">
+        <h1 class="black-text">Design Principles Document</h1>
+        <h2 class="black-text">Jared Brooks</h2>
     </header>
+    <br>
     <div id="content">
         <main>
-            <div id="">
+            <div id="grid">
                 <div id="first-third" class="bordered-r15">
                     <h2>White Space: <a href="https://apple.com">Apple.com</a></h2>
-                    <img src="" alt="A picture of Apple's homepage, including an iphone with much white space around it.">
-                    <p>On Apple's homepage we have a couple pictures of the new Iphone, and that's all that's really shown. There's a lot of white space around the first one which drives the eye to the center of the picture, which is the iPhone. Right underneath is another picture of an iphone with a purple background, and although it isn't technically white I think that it still counts as white because they chose a purple that wouldn't attract attention, and instead sends your attention to the phone in the center. I think the way that they spaced out their text on the page was a good use of white space. It used close to the maximum they could without making it uncomfortable.</p>
+                    <img src="images/apple-screenshot.jpg" alt="A picture of Apple's homepage, including an iphone with much white space around it.">
+                    <p>On Apple's homepage we have a couple pictures of the new iPhone, and that's all that's really shown. There's a lot of white space around the first one which drives the eye to the center of the picture, which is the iPhone. Right underneath is another picture of an iphone with a purple background, and although it isn't technically white I think that it still counts as white because they chose a purple that wouldn't attract attention, and instead sends your attention to the phone in the center. I think the way that they spaced out their text on the page was a good use of white space. It used close to the maximum they could without making it uncomfortable.</p>
                 </div>
 
                 <div id="second-third" class="bordered-r15">
-                    <h2>Alignment: <a href="https://uxengineer.com/principles-of-design/alignment/"></a></h2>
-                    <img src="" alt="">
+                    <h2>Alignment: <a href="https://bignoise.com/">Bignoise.com</a></h2>
+                    <img src="images/bignoise-screenshot.jpg" alt="A picture of bignoise.com showing a grid of album arts.">
+                    <p>The main example of alignment in this picture is that there are 6 and 2/4 images shown in the Recent Releases, and they are each horizontally and vertically aligned with one another. In addition, the left aligned h2 "Recent Releases" and the "p" element below it both align horizontally with the left side of the pictures. </p>
                 </div>
 
                 <div id="third-third" class="bordered-r15">
-                    <h2>Hierarchy: <a href="https://uxengineer.com/principles-of-design/hierarchy/"></a></h2>
-                    <img src="" alt="">
+                    <h2>Hierarchy: <a href="https://www.cinemark.com/theatre-search">Cinemark.com</a></h2>
+                    <img src="images/cinemark-screenshot.jpg" alt="A picture of cinemark's front page showing new and featured movies and a watchlist.">
+                    <p>This screenshot has visually engaging content, and they've set it up in such a way as to draw attention to the things they want to sell, as any reasonable business would. They made the biggest, most noticable thing the next big movie that is/was coming out, followed by other movies they want you to see. They made the rest of the site pretty boring and plain so as to draw your attention to the main focuses stated before.</p>
                 </div>
             </div>
         </main>
     </div>
-    <footer>
-
-    </footer>
+    <br>
+    <footer class="bordered-r15">
+        <div class="copyright">
+          <p>&copy; 2022 - Jared Brooks - Jaredare</p>
+          <p>Last modified: <span id="modify"></span>.</p>
+          <script src="js/DateTime.js"></script>
+        </div>
+        <div class="last-updated"></div>
+  </footer>
 </body>
