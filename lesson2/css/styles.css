@@ -34,7 +34,7 @@ font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
 
 /*-----------------------------------------------------------------------------*/
-/*HEADER*/
+/* HEADER */
 
 header {
     align-items: center;
@@ -51,7 +51,6 @@ header {
 #header-grid h1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    align-items: center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -60,7 +59,6 @@ header {
 #header-grid h2 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    align-items: center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -72,7 +70,7 @@ header {
 
 
 /*-----------------------------------------------------------------------------*/
-/*MAIN*/
+/* MAIN */
 
 p, h2 {
     padding-left: 10px;
@@ -102,7 +100,6 @@ border-color: #5427A1;
 }
 
 #grid div h2 {
-    align-items: center;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -124,8 +121,8 @@ div {
     max-width: 100%;
 }
 
-/*--------FOOTER-------------------------------------------------------------------*/
-
+/*---------------------------------------------------------------------------------*/
+/* FOOTER */
 footer {
 align-items: center;
 text-align: center;
@@ -134,6 +131,10 @@ max-width: 1400px;
 margin-left: auto;
 margin-right: auto;
 }
+
+
+/*----------------------------------------------------------------------------------*/
+/* MEDIA QUERIES */
 
 
 @media only screen and (max-width: 100rem) {
