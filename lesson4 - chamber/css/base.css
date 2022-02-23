@@ -1,0 +1,81 @@
+
+
+
+/* Planning bits, stuff for future reference. */
+.dark-background {
+    background-color: #000000;
+}
+
+.light-background {
+    background-color: white;
+}
+
+.orange-background {
+    background-color: #EA6803;
+}
+
+.blue-background {
+    background-color: #2471a8;
+}
+
+.jet-black-text {
+    color: #333333;
+}
+
+.sunglow-text {
+ color: #FFCC00;
+}
+
+#content {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+header {
+    align-items: center;
+    margin: 0 auto;
+}
+
+header nav ul {
+    /* width: 90%; */
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    align-items: center;
+    text-align: center;
+    margin: 5px 25px 5px 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    color: #111111;
+}
+
+p {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    
+    header nav ul {
+        justify-content: center;
+        list-style: none;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        align-items: center;
+        text-align: center;
+        margin: 5px 25px 5px 25px;
+    }
+
+}
